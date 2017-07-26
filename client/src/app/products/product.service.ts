@@ -8,7 +8,7 @@ import { Product } from './product';
 @Injectable()
 
 export class ProductService{
-	private server = 'http://localhost:3000/api/products';
+	private server = 'http://192.168.56.102/api/products';
 	headers : Headers;
 	options : RequestOptions;
 
